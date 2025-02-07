@@ -5,7 +5,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Hamburger from '../../../../public/assets/hamburger.svg';
 import Close from '../../../../public/assets/close.svg';
-import NavLink from "../Navlinks/page";
+import NavLink from "../Navlinks";
 
 const navLinks = [
   { title: "About", path: "/AboutSection" },
